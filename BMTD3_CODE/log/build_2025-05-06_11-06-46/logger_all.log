@@ -1,0 +1,418 @@
+[0.230s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.230s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9d0dbb51c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9d0dbb51c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9d0dbb56a0>)
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.412s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu20/CODE/code/BMTD3_CODE'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_drl) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_drl) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_drl) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_drl) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_drl) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_drl) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_drl) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_drl) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_drl) by extension 'ros'
+[0.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_drl' with type 'ros.ament_python' and name 'turtlebot3_drl'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'ros'
+[0.431s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_msgs' with type 'ros.ament_cmake' and name 'turtlebot3_msgs'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.436s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.456s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 265 installed packages in /opt/ros/foxy
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_drl' build argument 'cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_drl' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_drl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_drl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_drl' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_drl' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_drl' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_drl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_drl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_drl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_drl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl', 'merge_install': False, 'path': '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_drl', 'symlink_install': False, 'test_result_base': None}
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.531s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs', 'merge_install': False, 'path': '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.531s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.532s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.532s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.533s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.534s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_msgs' with build type 'ament_cmake'
+[0.534s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_msgs'
+[0.536s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.537s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.542s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_gazebo'
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.547s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_drl' with build type 'ament_python'
+[0.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_drl', 'ament_prefix_path')
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/hook/ament_prefix_path.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/hook/ament_prefix_path.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/hook/ament_prefix_path.sh'
+[0.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.551s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo
+[0.831s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_drl'
+[0.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_drl': PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_drl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_drl build --build-base /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_drl/build install --record /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_drl/install.log --single-version-externally-managed install_data
+[1.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_drl' returned '0': PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_drl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_drl build --build-base /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_drl/build install --record /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_drl/install.log --single-version-externally-managed install_data
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl' for CMake module files
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl' for CMake config files
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/lib'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/bin'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/lib/pkgconfig/turtlebot3_drl.pc'
+[1.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/lib/python3.8/site-packages'
+[1.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_drl', 'pythonpath')
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/hook/pythonpath.ps1'
+[1.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/hook/pythonpath.dsv'
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/hook/pythonpath.sh'
+[1.732s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/bin'
+[1.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_drl)
+[1.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/package.ps1'
+[1.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/package.dsv'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/package.sh'
+[1.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/package.bash'
+[1.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/turtlebot3_drl/package.zsh'
+[1.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_drl/share/colcon-core/packages/turtlebot3_drl)
+[2.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs
+[2.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs -- -j8 -l8
+[4.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo
+[4.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo -- -j8 -l8
+[16.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs -- -j8 -l8
+[16.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs
+[16.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_msgs)
+[16.473s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs' for CMake module files
+[16.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs
+[16.474s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs' for CMake config files
+[16.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'cmake_prefix_path')
+[16.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.ps1'
+[16.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.dsv'
+[16.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.sh'
+[16.478s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib'
+[16.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'ld_library_path_lib')
+[16.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.ps1'
+[16.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.dsv'
+[16.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.sh'
+[16.481s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/bin'
+[16.481s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/pkgconfig/turtlebot3_msgs.pc'
+[16.481s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages'
+[16.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'pythonpath')
+[16.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/pythonpath.ps1'
+[16.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/pythonpath.dsv'
+[16.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/pythonpath.sh'
+[16.484s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/bin'
+[16.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.ps1'
+[16.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv'
+[16.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.sh'
+[16.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.bash'
+[16.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.zsh'
+[16.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/colcon-core/packages/turtlebot3_msgs)
+[16.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_msgs)
+[16.492s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs' for CMake module files
+[16.493s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs' for CMake config files
+[16.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'cmake_prefix_path')
+[16.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.ps1'
+[16.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.dsv'
+[16.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/cmake_prefix_path.sh'
+[16.497s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib'
+[16.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'ld_library_path_lib')
+[16.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.ps1'
+[16.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.dsv'
+[16.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/ld_library_path_lib.sh'
+[16.500s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/bin'
+[16.500s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/pkgconfig/turtlebot3_msgs.pc'
+[16.500s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages'
+[16.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_msgs', 'pythonpath')
+[16.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/pythonpath.ps1'
+[16.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/pythonpath.dsv'
+[16.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/hook/pythonpath.sh'
+[16.503s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/bin'
+[16.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.ps1'
+[16.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv'
+[16.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.sh'
+[16.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.bash'
+[16.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/turtlebot3_msgs/package.zsh'
+[16.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/share/colcon-core/packages/turtlebot3_msgs)
+[16.509s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[16.509s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_fake_node'
+[16.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node
+[19.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node
+[19.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node -- -j8 -l8
+[20.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo -- -j8 -l8
+[20.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo
+[20.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[20.230s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo' for CMake module files
+[20.232s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo' for CMake config files
+[20.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo
+[20.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[20.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[20.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[20.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[20.237s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/lib'
+[20.237s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/bin'
+[20.237s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[20.238s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[20.238s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/bin'
+[20.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[20.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[20.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[20.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[20.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[20.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[20.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[20.242s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo' for CMake module files
+[20.242s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo' for CMake config files
+[20.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[20.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[20.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[20.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[20.245s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/lib'
+[20.245s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/bin'
+[20.245s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[20.246s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[20.246s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/bin'
+[20.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[20.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[20.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[20.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[20.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[20.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[26.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node -- -j8 -l8
+[26.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node
+[26.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[26.453s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node' for CMake module files
+[26.455s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node' for CMake config files
+[26.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_fake_node
+[26.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[26.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[26.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[26.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[26.462s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/lib'
+[26.462s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/bin'
+[26.462s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[26.462s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[26.462s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/bin'
+[26.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[26.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[26.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[26.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[26.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[26.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[26.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[26.466s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node' for CMake module files
+[26.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node' for CMake config files
+[26.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[26.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[26.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[26.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[26.469s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/lib'
+[26.469s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/bin'
+[26.469s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[26.470s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[26.470s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/bin'
+[26.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[26.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[26.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[26.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[26.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[26.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[26.473s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[26.473s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_simulations'
+[26.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations
+[27.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_simulations -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations
+[27.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations -- -j8 -l8
+[27.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations -- -j8 -l8
+[27.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations
+[27.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[27.593s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations' for CMake module files
+[27.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_fake_node:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs:/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_simulations
+[27.595s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations' for CMake config files
+[27.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[27.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[27.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[27.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[27.600s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/bin'
+[27.600s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[27.601s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[27.601s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/bin'
+[27.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[27.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[27.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[27.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[27.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[27.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[27.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[27.605s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations' for CMake module files
+[27.605s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations' for CMake config files
+[27.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[27.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[27.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[27.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[27.607s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/bin'
+[27.608s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[27.608s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[27.608s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/bin'
+[27.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[27.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[27.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[27.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[27.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[27.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[27.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.612s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.612s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.623s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.623s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.623s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.641s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/local_setup.ps1'
+[27.644s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu20/CODE/code/BMTD3_CODE/install/_local_setup_util_ps1.py'
+[27.647s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/setup.ps1'
+[27.649s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/local_setup.sh'
+[27.651s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu20/CODE/code/BMTD3_CODE/install/_local_setup_util_sh.py'
+[27.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/setup.sh'
+[27.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/local_setup.bash'
+[27.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/setup.bash'
+[27.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/local_setup.zsh'
+[27.656s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu20/CODE/code/BMTD3_CODE/install/setup.zsh'

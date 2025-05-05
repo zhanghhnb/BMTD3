@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs
+Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_msgs
+Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs -- -j8 -l8
+Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs -- -j8 -l8
+Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs
+Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs

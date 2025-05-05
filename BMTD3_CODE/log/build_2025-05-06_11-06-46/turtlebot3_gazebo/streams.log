@@ -1,0 +1,334 @@
+[0.027s] Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo
+[0.096s] -- The C compiler identification is GNU 9.4.0
+[0.157s] -- The CXX compiler identification is GNU 9.4.0
+[0.161s] -- Check for working C compiler: /usr/bin/cc
+[0.244s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.245s] -- Detecting C compiler ABI info
+[0.343s] -- Detecting C compiler ABI info - done
+[0.359s] -- Detecting C compile features
+[0.360s] -- Detecting C compile features - done
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.465s] -- Detecting CXX compiler ABI info
+[0.571s] -- Detecting CXX compiler ABI info - done
+[0.589s] -- Detecting CXX compile features
+[0.589s] -- Detecting CXX compile features - done
+[0.591s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.623s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.624s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.862s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.866s] -- Checking for module 'bullet>=2.82'
+[0.884s] --   Found bullet, version 2.88
+[1.043s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.121s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.199s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.225s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.661s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.688s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.694s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.700s] -- Searching for dependencies of ignition-math6
+[1.702s] -- Looking for OGRE...
+[1.702s] -- OGRE_PREFIX_WATCH changed.
+[1.709s] -- Checking for module 'OGRE'
+[1.732s] --   Found OGRE, version 1.9.0
+[1.797s] -- Found Ogre Ghadamon (1.9.0)
+[1.809s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.820s] -- Looking for OGRE_Paging...
+[1.828s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.828s] -- Looking for OGRE_Terrain...
+[1.835s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.836s] -- Looking for OGRE_Property...
+[1.844s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.844s] -- Looking for OGRE_RTShaderSystem...
+[1.851s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.851s] -- Looking for OGRE_Volume...
+[1.858s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.858s] -- Looking for OGRE_Overlay...
+[1.864s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.005s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.007s] -- Looking for ignition-transport8 -- found version 8.5.0
+[2.007s] -- Searching for dependencies of ignition-transport8
+[2.046s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.053s] -- Checking for module 'libzmq >= 4'
+[2.075s] --   Found libzmq , version 4.3.2
+[2.136s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.146s] -- Checking for module 'uuid'
+[2.168s] --   Found uuid, version 2.34.0
+[2.231s] -- Found UUID: TRUE  
+[2.233s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.233s] -- Searching for dependencies of ignition-msgs5
+[2.258s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.259s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.266s] -- Checking for module 'tinyxml2'
+[2.284s] --   Found tinyxml2, version 6.2.0
+[2.346s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.347s] -- Looking for ignition-common3 -- found version 3.17.0
+[2.348s] -- Searching for dependencies of ignition-common3
+[2.348s] -- Looking for dlfcn.h - found
+[2.350s] -- Looking for libdl - found
+[2.352s] -- Found DL: TRUE  
+[2.363s] -- Searching for <ignition-common3> component [graphics]
+[2.365s] -- Looking for ignition-common3-graphics -- found version 3.17.0
+[2.366s] -- Searching for dependencies of ignition-common3-graphics
+[2.366s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.373s] -- Looking for ignition-fuel_tools4 -- found version 4.9.1
+[2.373s] -- Searching for dependencies of ignition-fuel_tools4
+[2.482s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.492s] -- Checking for module 'jsoncpp'
+[2.514s] --   Found jsoncpp, version 1.7.4
+[2.571s] -- Found JSONCPP: TRUE  
+[2.578s] -- Checking for module 'libzip'
+[2.602s] --   Found libzip, version 1.5.1
+[2.661s] -- Found ZIP: TRUE  
+[2.661s] -- Looking for ignition-common3 -- found version 3.17.0
+[2.662s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.663s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.666s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[2.668s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.692s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.698s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.804s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.834s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.926s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.020s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.097s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.145s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.146s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.148s] -- Found Threads: TRUE  
+[3.304s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.435s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.554s] -- Configuring done
+[3.627s] -- Generating done
+[3.649s] -- Build files have been written to: /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo
+[3.674s] Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu20/CODE/code/BMTD3_CODE/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo
+[3.676s] Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo -- -j8 -l8
+[3.759s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[3.763s] [35m[1mScanning dependencies of target obstacle1[0m
+[3.766s] [35m[1mScanning dependencies of target obstacles[0m
+[3.770s] [35m[1mScanning dependencies of target obstacle2[0m
+[3.961s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[3.998s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_drl_world/obstacle_plugin/obstacle1.cc.o[0m
+[4.053s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_drl_world/obstacle_plugin/obstacles.cc.o[0m
+[4.053s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_drl_world/obstacle_plugin/obstacle2.cc.o[0m
+[15.839s] [ 62%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[16.338s] [ 62%] Built target turtlebot3_drive
+[18.802s] [ 75%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[19.101s] [ 87%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[19.205s] [ 87%] Built target obstacle2
+[19.265s] [100%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[19.473s] [100%] Built target obstacles
+[19.601s] [100%] Built target obstacle1
+[19.617s] Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo -- -j8 -l8
+[19.621s] Invoking command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo
+[19.634s] -- Install configuration: ""
+[19.634s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[19.638s] -- Set runtime path of "/home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[19.638s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[19.638s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage1.launch.py
+[19.638s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage6.launch.py
+[19.639s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage4.launch.py
+[19.639s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[19.639s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_drl_stage3.launch.py
+[19.639s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[19.640s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[19.640s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[19.640s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[19.640s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[19.640s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[19.640s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[19.641s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[19.641s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[19.641s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[19.641s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[19.641s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[19.642s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[19.642s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[19.642s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes
+[19.642s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[19.642s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[19.643s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[19.643s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[19.643s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[19.643s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[19.644s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[19.644s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[19.644s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[19.644s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[19.645s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes
+[19.645s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[19.645s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[19.645s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[19.645s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[19.645s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle8
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle8/model.sdf
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle8/model.config
+[19.646s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle12
+[19.647s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle12/model.sdf
+[19.647s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle12/model.config
+[19.647s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/triangle
+[19.647s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/triangle/model.sdf
+[19.648s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/triangle/model.config
+[19.648s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle6
+[19.648s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle6/model.sdf
+[19.648s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle6/model.config
+[19.648s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls
+[19.649s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls/model.sdf
+[19.649s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls/model.config
+[19.649s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle2
+[19.649s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle2/model.sdf
+[19.649s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle2/model.config
+[19.649s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_obstacles
+[19.650s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_obstacles/model.sdf
+[19.650s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_obstacles/model.config
+[19.650s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls_large
+[19.650s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls_large/model.sdf
+[19.650s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/inner_walls_large/model.config
+[19.650s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle5
+[19.651s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle5/model.sdf
+[19.651s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle5/model.config
+[19.651s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle1
+[19.651s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle1/model.sdf
+[19.652s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle1/model.config
+[19.652s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle7
+[19.652s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle7/model.sdf
+[19.652s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle7/model.config
+[19.653s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle4
+[19.653s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle4/model.sdf
+[19.653s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle4/model.config
+[19.654s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls
+[19.654s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls/model.sdf
+[19.654s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls/model.config
+[19.655s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle10
+[19.655s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle10/model.sdf
+[19.655s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle10/model.config
+[19.655s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/model.sdf
+[19.655s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacles
+[19.655s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacles/model.sdf
+[19.656s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacles/model.config
+[19.656s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/long_wall
+[19.656s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/long_wall/model.sdf
+[19.656s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/long_wall/model.config
+[19.656s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls_large
+[19.656s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls_large/model.sdf
+[19.656s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/outer_walls_large/model.config
+[19.657s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin
+[19.657s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle1.cc
+[19.657s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle2.cc
+[19.657s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacles.cc
+[19.657s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle11.cc
+[19.657s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle3.cc
+[19.657s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle8.cc
+[19.658s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/CMakeLists.txt
+[19.658s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle5.cc
+[19.658s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle6.cc
+[19.658s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle4.cc
+[19.658s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle10.cc
+[19.658s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle13.cc
+[19.659s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle9.cc
+[19.659s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle7.cc
+[19.659s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/obstacle12.cc
+[19.659s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib
+[19.659s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle6.so
+[19.659s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle1.so
+[19.659s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/Makefile
+[19.660s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle2.so
+[19.660s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle9.so
+[19.661s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeCache.txt
+[19.661s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle11.so
+[19.663s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle10.so
+[19.664s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/cmake_install.cmake
+[19.664s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle5.so
+[19.666s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle4.so
+[19.668s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle3.so
+[19.669s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles
+[19.669s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/TargetDirectories.txt
+[19.669s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/cmake.check_cache
+[19.670s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/progress.marks
+[19.670s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/CMakeError.log
+[19.670s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3
+[19.670s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/3.16.3/CMakeSystem.cmake
+[19.670s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/Makefile.cmake
+[19.670s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/Makefile2
+[19.671s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/CMakeFiles/CMakeOutput.log
+[19.671s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle7.so
+[19.672s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle12.so
+[19.673s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacle8.so
+[19.674s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle_plugin/lib/libobstacles.so
+[19.676s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle9
+[19.676s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle9/model.sdf
+[19.677s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle9/model.config
+[19.677s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/model.config
+[19.677s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle11
+[19.678s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle11/model.sdf
+[19.678s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle11/model.config
+[19.678s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle3
+[19.678s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle3/model.sdf
+[19.678s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/obstacle3/model.config
+[19.679s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/goal_box
+[19.679s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/goal_box/model.sdf
+[19.679s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/goal_box/model.config
+[19.679s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/turtlebot3_house_tomas
+[19.680s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/turtlebot3_house_tomas/model.sdf
+[19.680s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_drl_world/turtlebot3_house_tomas/model.config
+[19.680s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[19.680s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[19.680s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[19.681s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage4
+[19.681s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage4/burger.model
+[19.681s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage4/waffle_pi.model
+[19.681s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage4/waffle.model
+[19.681s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage1
+[19.682s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage1/burger.model
+[19.682s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage1/waffle_pi.model
+[19.682s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage1/waffle.model
+[19.682s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage3
+[19.682s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage3/burger.model
+[19.682s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage3/waffle_pi.model
+[19.683s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage3/waffle.model
+[19.683s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses
+[19.683s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[19.683s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[19.683s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[19.684s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage6
+[19.684s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage6/burger.model
+[19.684s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage6/waffle_pi.model
+[19.684s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_drl_stage6/waffle.model
+[19.684s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds
+[19.685s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[19.685s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[19.685s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[19.685s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds
+[19.685s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[19.686s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[19.686s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[19.686s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/world_test
+[19.686s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/include/
+[19.686s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[19.686s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[19.686s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[19.687s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[19.688s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[19.688s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[19.689s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[19.689s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[19.689s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[19.689s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[19.690s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[19.690s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[19.690s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[19.690s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[19.690s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.691s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.691s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[19.691s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[19.691s] -- Installing: /home/ubuntu20/CODE/code/BMTD3_CODE/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[19.691s] Invoked command in '/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_gazebo

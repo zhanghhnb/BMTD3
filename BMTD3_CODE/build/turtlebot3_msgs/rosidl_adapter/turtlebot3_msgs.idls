@@ -1,0 +1,8 @@
+/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/SensorState.idl
+/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/Sound.idl
+/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/VersionInfo.idl
+/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Sound.idl
+/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/DrlStep.idl
+/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Goal.idl
+/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/RingGoal.idl
+/home/ubuntu20/CODE/code/BMTD3_CODE/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:action/Patrol.idl
